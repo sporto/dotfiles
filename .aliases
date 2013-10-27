@@ -1,0 +1,2 @@
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
