@@ -1,6 +1,7 @@
 [alias]
 	st = status
 	ci = commit
+	co = checkout
 [user]
 	name = Sebastian Porto
 	email = sebasporto@gmail.com
