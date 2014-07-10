@@ -1,2 +1,1 @@
-require "awesome_print"
-AwesomePrint.irb!
+/Users/sebastian/.dotfiles/irbrc
