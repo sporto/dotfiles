@@ -16,3 +16,5 @@
 	trustExitCode = true
 [mergetool]
 	keepBackup = true
+[github]
+	user = sporto
