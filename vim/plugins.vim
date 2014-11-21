@@ -17,7 +17,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My Bundles here:
 NeoBundle 'bling/vim-airline'
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Shougo/unite.vim'
+NeoBundle 'wincent/command-t'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'editorconfig/editorconfig-vim'
