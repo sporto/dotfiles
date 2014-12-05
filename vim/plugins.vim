@@ -17,11 +17,15 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My Bundles here:
 NeoBundle 'bling/vim-airline'
 NeoBundle 'scrooloose/nerdtree'
-" NeoBundle 'wincent/command-t'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'editorconfig/editorconfig-vim'
+NeoBundle 'vim-scripts/EasyGrep'
+NeoBundle 'thoughtbot/vim-rspec'
+NeoBundle 'tpope/vim-surround'
+" NeoBundle 'hlissner/vim-multiedit'
+" NeoBundle 'terryma/vim-multiple-cursors'
 
 " You can specify revision/branch/tag.
 " NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
