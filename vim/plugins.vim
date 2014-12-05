@@ -25,6 +25,7 @@ NeoBundle 'vim-scripts/EasyGrep'
 NeoBundle 'thoughtbot/vim-rspec'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'mattn/emmet-vim'
+NeoBundle 'fatih/vim-go'
 " NeoBundle 'hlissner/vim-multiedit'
 " NeoBundle 'terryma/vim-multiple-cursors'
 
