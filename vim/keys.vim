@@ -3,12 +3,16 @@ let mapleader=","
 
 noremap <C-n> :NERDTreeToggle<cr>
 nnoremap <C-p> :CtrlP<cr>
+"noremap <silent> <C-> :exe "resize -5"<cr>
+"noremap <silent> <C-'> :exe "resize +5"<cr>
+noremap <C-]> :exe 'vertical resize -5'<cr>
+noremap <C-\> :exe 'vertical resize +5'<cr>
 
 " RSpec.vim mappings
-map <Leader>r :call RunNearestSpec()<CR>
-map <Leader>t :call RunCurrentSpecFile()<CR>
-map <Leader>e :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
+map <Leader>r :call RunNearestSpec()<cr>
+map <Leader>t :call RunCurrentSpecFile()<cr>
+map <Leader>e :call RunLastSpec()<cr>
+map <Leader>a :call RunAllSpecs()<cr>
 
 " Surround
 let b:surround_{char2nr('=')} = "<%= \r %>"

@@ -12,6 +12,8 @@ let g:NERDTreeShowHidden=1
 set laststatus=2
 let g:airline_theme='badwolf'
 
+" Go VIM
+let g:go_fmt_command = "goimports"
 
 " ********************************************************************
 " Other VIM configuration
