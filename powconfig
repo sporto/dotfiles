@@ -1,0 +1,2 @@
+export POW_DOMAINS=dev,development.dbg.westfield.com
+export POW_EXT_DOMAINS=ngrok.com

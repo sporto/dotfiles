@@ -5,8 +5,12 @@ noremap <C-n> :NERDTreeToggle<cr>
 nnoremap <C-p> :CtrlP<cr>
 "noremap <silent> <C-> :exe "resize -5"<cr>
 "noremap <silent> <C-'> :exe "resize +5"<cr>
-noremap <C-]> :exe 'vertical resize -5'<cr>
-noremap <C-\> :exe 'vertical resize +5'<cr>
+" noremap <C-]> :exe 'vertical resize -5'<cr>
+" noremap <C-\> :exe 'vertical resize +5'<cr>
+noremap <silent> <C-h> :ObviousResizeLeft<CR>
+noremap <silent> <C-l> :ObviousResizeRight<CR>
+noremap <silent> <C-k> :ObviousResizeUp<CR>
+noremap <silent> <C-j> :ObviousResizeDown<CR>
 
 " RSpec.vim mappings
 map <Leader>r :call RunNearestSpec()<cr>
