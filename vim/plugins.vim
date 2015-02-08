@@ -27,6 +27,7 @@ NeoBundle 'mattn/emmet-vim'
 NeoBundle 'fatih/vim-go'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'talek/obvious-resize'
+NeoBundle 'sandeepcr529/Buffet.vim'
 " NeoBundle 'hlissner/vim-multiedit'
 " NeoBundle 'terryma/vim-multiple-cursors'
 

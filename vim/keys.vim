@@ -22,6 +22,9 @@ map <Leader>a :call RunAllSpecs()<cr>
 let b:surround_{char2nr('=')} = "<%= \r %>"
 let b:surround_{char2nr('-')} = "<% \r %>"
 
+" Buffet
+map <silent> <C-b> :Bufferlist<CR>
+
 " Multiple cursor
 " let g:multi_cursor_use_default_mapping=0
 " let g:multi_cursor_next_key='<C-m>'
