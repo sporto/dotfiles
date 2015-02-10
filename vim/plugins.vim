@@ -29,6 +29,7 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'talek/obvious-resize'
 NeoBundle 'sandeepcr529/Buffet.vim'
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'Valloric/YouCompleteMe'
 " NeoBundle 'hlissner/vim-multiedit'
 " NeoBundle 'terryma/vim-multiple-cursors'
 

@@ -7,6 +7,8 @@ let g:NERDTreeMinimalUI = 1                 " Disable help message
 let g:NERDTreeDirArrows = 1                 " Enable directory arrows
 let g:NERDTreeShowHidden=1
 
+" CtrlP
+let g:ctrlp_show_hidden = 1
 
 " airline config
 set laststatus=2
