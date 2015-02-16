@@ -4,6 +4,9 @@
 set listchars=tab:->,trail:.,extends:#,precedes:<,nbsp:.    " show invisibles
 set invlist                                          " :set list
 
+" Fonts
+set guifont=Source_Code_Pro_Light:h13
+
 " ********************************************************************
 " Indentation
 " ********************************************************************
