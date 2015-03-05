@@ -25,6 +25,11 @@ let b:surround_{char2nr('-')} = "<% \r %>"
 " Buffet
 map <silent> <C-b> :Bufferlist<CR>
 
+" Copy
+vmap <C-c> "*y<CR>
+" vmap <silent><Leader>x :w !pbcopy<CR><CR>
+" nmap <Leader>pp :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+
 " Multiple cursor
 " let g:multi_cursor_use_default_mapping=0
 " let g:multi_cursor_next_key='<C-m>'
