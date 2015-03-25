@@ -21,6 +21,17 @@ set autoindent              " Automatic indentation in non-C files
 set number                  " always show line numbers
 set showmatch               " set show matching parenthesis
 
+" ********************************************************************
+" Folding
+" ********************************************************************
+" Fold using syntax
+set foldmethod=syntax
+" Fold level 1 automatically when opening a file
+set foldlevel=1
+" Automatically close a fold when moving out
+set foldclose=all
+" Do not fold level 2 onwards
+set foldnestmax=2
 
 " Color scheme
 colorscheme jellybeans
