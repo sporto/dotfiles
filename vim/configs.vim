@@ -21,6 +21,11 @@ let g:airline_theme='badwolf'
 " Go VIM
 let g:go_fmt_command = "goimports"
 
+
+" Syntastic
+let g:syntastic_check_on_open = 1
+let g:syntastic_javascript_checkers = ['jscs']
+
 " ********************************************************************
 " Other VIM configuration
 " ********************************************************************
