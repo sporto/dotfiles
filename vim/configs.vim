@@ -9,6 +9,10 @@ let g:NERDTreeShowHidden=1
 
 " CtrlP
 let g:ctrlp_show_hidden = 1
+" let g:ctrlp_show_ignore = {
+" 	\ 'dir':  '\v[\/]\.(git|hg|svn)$'
+" 	\ }
+set wildignore+=*/tmp/*,node_modules,.DS_Store
 
 " airline config
 set laststatus=2
