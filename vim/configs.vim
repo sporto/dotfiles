@@ -9,9 +9,6 @@ let g:NERDTreeShowHidden=1
 
 " CtrlP
 let g:ctrlp_show_hidden = 1
-" let g:ctrlp_show_ignore = {
-" 	\ 'dir':  '\v[\/]\.(git|hg|svn)$'
-" 	\ }
 set wildignore+=*/tmp/*,node_modules,.DS_Store
 
 " airline config
@@ -20,7 +17,6 @@ let g:airline_theme='badwolf'
 
 " Go VIM
 let g:go_fmt_command = "goimports"
-
 
 " Syntastic
 let g:syntastic_check_on_open = 1
