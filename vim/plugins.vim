@@ -32,6 +32,7 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'ervandew/supertab'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'terryma/vim-multiple-cursors'
+NeoBundle 'scrooloose/nerdcommenter'
 
 " You can specify revision/branch/tag.
 " NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
