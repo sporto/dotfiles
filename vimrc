@@ -6,9 +6,7 @@ set nocompatible
 let mapleader = "\\"
 
 source $CONFIG/plugins.vim
-source $CONFIG/style.vim
-source $CONFIG/syntax.vim
-source $CONFIG/configs.vim
+source $CONFIG/config.vim
 source $CONFIG/keys.vim
 
 
