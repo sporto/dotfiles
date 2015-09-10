@@ -1,5 +1,5 @@
 " Remap leader
-let mapleader=","
+let mapleader="'"
 
 noremap <C-n> :NERDTreeToggle<cr>
 noremap <C-m> :NERDTreeFind<cr>
@@ -39,3 +39,10 @@ let g:multi_cursor_prev_key='<C-p>'
 let g:multi_cursor_skip_key='<C-x>'
 let g:multi_cursor_quit_key='<Esc>'
 " let g:multi_cursor_start_key='<C-s>'
+
+" Easy Motion
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+
+" map  n <Plug>(easymotion-next)
+" map  N <Plug>(easymotion-prev)

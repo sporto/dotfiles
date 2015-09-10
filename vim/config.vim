@@ -90,3 +90,9 @@ set foldnestmax=2
 " Color scheme
 " ********************************************************************
 colorscheme jellybeans
+
+" ********************************************************************
+" Other colors
+" ********************************************************************
+" http://stackoverflow.com/questions/10746750/set-vim-bracket-highlighting-colors
+hi MatchParen cterm=underline ctermbg=blue ctermfg=none

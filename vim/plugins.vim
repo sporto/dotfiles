@@ -17,10 +17,11 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My Bundles here:
 
 NeoBundle 'bling/vim-airline'
+NeoBundle 'ConradIrwin/vim-bracketed-paste'
+NeoBundle 'easymotion/vim-easymotion'
 NeoBundle 'editorconfig/editorconfig-vim'
 NeoBundle 'ervandew/supertab'
 NeoBundle 'fatih/vim-go'
-NeoBundle 'ConradIrwin/vim-bracketed-paste'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'lambdatoast/elm.vim'
