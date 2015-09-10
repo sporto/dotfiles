@@ -35,6 +35,7 @@ let g:go_fmt_command = "goimports"
 " ********************************************************************
 let g:syntastic_check_on_open = 1
 " let g:syntastic_javascript_checkers = ['jscs']
+let g:syntastic_javascript_checkers = ['']
 
 " ********************************************************************
 " Other VIM configuration

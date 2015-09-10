@@ -2,6 +2,8 @@
 let mapleader=","
 
 noremap <C-n> :NERDTreeToggle<cr>
+noremap <C-m> :NERDTreeFind<cr>
+
 nnoremap <C-p> :CtrlP<cr>
 " noremap <silent> <C-> :exe "resize -5"<cr>
 " noremap <silent> <C-'> :exe "resize +5"<cr>
