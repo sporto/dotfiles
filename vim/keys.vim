@@ -3,8 +3,8 @@ let mapleader=","
 
 noremap <C-n> :NERDTreeToggle<cr>
 nnoremap <C-p> :CtrlP<cr>
-"noremap <silent> <C-> :exe "resize -5"<cr>
-"noremap <silent> <C-'> :exe "resize +5"<cr>
+" noremap <silent> <C-> :exe "resize -5"<cr>
+" noremap <silent> <C-'> :exe "resize +5"<cr>
 " noremap <C-]> :exe 'vertical resize -5'<cr>
 " noremap <C-\> :exe 'vertical resize +5'<cr>
 noremap <silent> <C-h> :ObviousResizeLeft<CR>
@@ -31,8 +31,9 @@ vmap <C-c> "*y<CR>
 " nmap <Leader>pp :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
 
 " Multiple cursor
-" let g:multi_cursor_use_default_mapping=0
-" let g:multi_cursor_next_key='<C-m>'
-" let g:multi_cursor_prev_key='<C-p>'
-" let g:multi_cursor_skip_key='<C-x>'
-" let g:multi_cursor_quit_key='<Esc>'
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_next_key='<C-a>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
+" let g:multi_cursor_start_key='<C-s>'

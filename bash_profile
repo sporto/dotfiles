@@ -13,6 +13,8 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export GOPATH=~/GoDev
 # export HOMEBREW_SOURCEFORGE_MIRROR=internode
 export LOAD_GEMS_FROM_LOCAL=1
+# For VIM to use 256 colors
+export TERM=xterm-256color
 ##################################################
 
 
