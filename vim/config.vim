@@ -95,4 +95,12 @@ colorscheme jellybeans
 " Other colors
 " ********************************************************************
 " http://stackoverflow.com/questions/10746750/set-vim-bracket-highlighting-colors
-hi MatchParen cterm=underline ctermbg=blue ctermfg=none
+hi MatchParen cterm=underline ctermbg=darkblue ctermfg=none
+
+" Highlight insert mode
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
+
+" Seems that the cursor color cannot be changed in Mac terminal
+" au InsertLeave * hi Cursor guibg=blue
+" au InsertEnter * hi Cursor guibg=green
