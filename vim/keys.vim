@@ -1,10 +1,18 @@
 " Remap leader
-let mapleader="'"
+let mapleader=";"
 
+" Nerd Tree
 noremap <C-n> :NERDTreeToggle<cr>
 noremap <C-m> :NERDTreeFind<cr>
 
+" Nerd Commenter
+" Ctrl-o to toggle comments
+map <C-o> :call NERDComment(0, "toggle")<CR>
+
+" Ctrl P
 nnoremap <C-p> :CtrlP<cr>
+
+" ObviousResize
 " noremap <silent> <C-> :exe "resize -5"<cr>
 " noremap <silent> <C-'> :exe "resize +5"<cr>
 " noremap <C-]> :exe 'vertical resize -5'<cr>
@@ -19,6 +27,9 @@ map <Leader>r :call RunNearestSpec()<cr>
 map <Leader>t :call RunCurrentSpecFile()<cr>
 map <Leader>e :call RunLastSpec()<cr>
 map <Leader>a :call RunAllSpecs()<cr>
+
+" Emmet
+map <C-e> <C-y>,
 
 " Surround
 let b:surround_{char2nr('=')} = "<%= \r %>"
@@ -46,3 +57,13 @@ omap / <Plug>(easymotion-tn)
 
 " map  n <Plug>(easymotion-next)
 " map  N <Plug>(easymotion-prev)
+
+" Text expansions
+" imap <C-f> function
+" e.g expand Ctrl f to word function
+
+" Windows
+map <C-s> :split<CR>
+map <C-x> :vsplit<CR>
+
+
