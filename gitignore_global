@@ -1,0 +1,6 @@
+*~
+.DS_Store
+*.sublime-*
+
+# emacs tmp files
+.#*
