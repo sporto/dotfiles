@@ -16,7 +16,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
 
-NeoBundle 'bling/vim-airline'
+NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'ConradIrwin/vim-bracketed-paste'
 NeoBundle 'easymotion/vim-easymotion'
 NeoBundle 'editorconfig/editorconfig-vim'
