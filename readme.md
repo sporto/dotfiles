@@ -1,3 +1,8 @@
+Clone
+----
+
+Clone in home folder, rename to .dotfiles
+
 Sync
 ----
 
