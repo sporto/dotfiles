@@ -43,6 +43,7 @@ let g:syntastic_javascript_checkers = ['']
 " No swap files and backups
 set nobackup
 set noswapfile
+set clipboard=unnamedplus      " copy to clipboard
 
 syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
