@@ -3,3 +3,5 @@
 	br = branch
 	st = status
 	ci = commit
+[core]
+	editor = /usr/bin/vim
