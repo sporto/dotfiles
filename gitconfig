@@ -5,3 +5,4 @@
 	ci = commit
 [core]
 	editor = /usr/bin/vim
+	excludesfile = /Users/Sebastian/.gitignore_global
