@@ -6,3 +6,5 @@
 [core]
 	editor = /usr/bin/vim
 	excludesfile = /Users/Sebastian/.gitignore_global
+[user]
+	email = s@porto5.com
