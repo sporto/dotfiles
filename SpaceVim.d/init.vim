@@ -11,6 +11,7 @@ set list                                                    " :set spacevim_list
 " Custom plugins
 " ********************************************************************
 let g:spacevim_custom_plugins = [
+\ ['ElmCast/elm-vim'],
 \ ['mattn/emmet-vim'],
 \ ['mxw/vim-jsx'],
 \ ]
