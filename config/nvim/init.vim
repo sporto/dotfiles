@@ -22,8 +22,10 @@ call plug#end()
 
 " ********************************************************************
 " Key bindings
-" Colours
 " ********************************************************************
+
+" Sort
+map <C-o> :sort<CR>
 
 " ObviousResize
 noremap <silent> <C-h> :ObviousResizeLeft<CR>
