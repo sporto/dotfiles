@@ -3,6 +3,7 @@ call plug#begin('~/.config/nvim/plugged')
 " File search
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+" Plug 'dzhou121/gonvim-fuzzy'
 
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
@@ -40,6 +41,9 @@ noremap <C-m> :NERDTreeFind<cr>
 map <C-s> :split<CR>
 map <C-x> :vsplit<CR>
 
+" Buffet
+map <C-b> :Bufferlist<cr>
+
 " ********************************************************************
 " Colours
 " ********************************************************************
@@ -50,3 +54,8 @@ colorscheme jellybeans
 " ********************************************************************
 set listchars=tab:>-,trail:.,extends:#,precedes:<,nbsp:.    " show invisibles
 set list                                                    " :set spacevim_listchars
+
+" ********************************************************************
+" gonvim
+" ********************************************************************
+let g:gonvim_start_fullscreen = 1
