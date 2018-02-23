@@ -57,6 +57,17 @@ colorscheme jellybeans
 " ********************************************************************
 set listchars=tab:>-,trail:.,extends:#,precedes:<,nbsp:.    " show invisibles
 set list                                                    " :set spacevim_listchars
+set tabstop=4
+set shiftwidth=4 " Number of spaces use by autoindent
+
+" ********************************************************************
+" Other random config
+" ********************************************************************
+set t_Co=256 " 256 color mode in term
+set cc=80 " Highlight column at 80
+set autoread " ReaLoad a file if was changed outside of Vim
+set number " show line number
+set ru " Ruler active
 
 " ********************************************************************
 " gonvim
