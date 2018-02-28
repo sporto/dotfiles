@@ -5,6 +5,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 " Plug 'dzhou121/gonvim-fuzzy'
 
+Plug 'brooth/far.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ElmCast/elm-vim'
@@ -13,10 +14,10 @@ Plug 'mattn/emmet-vim'
 Plug 'rking/ag.vim'
 Plug 'sandeepcr529/Buffet.vim'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'Shougo/deoplete.nvim'
 Plug 'talek/obvious-resize'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'Shougo/deoplete.nvim'
 
 call plug#end()
 
