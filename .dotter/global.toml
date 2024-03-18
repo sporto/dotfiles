@@ -1,2 +1,6 @@
+[alacritty.files]
+"config/alacritty/alacritty.toml" = "~/.config/alacritty/alacritty.toml"
+
+
 [zsh.files]
 zshrc = "~/.zshrc"
