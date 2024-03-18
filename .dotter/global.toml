@@ -1,6 +1,8 @@
 [alacritty.files]
 "config/alacritty/alacritty.toml" = "~/.config/alacritty/alacritty.toml"
 
+[zed.files]
+"config/zed/keymap.json" = "~/.config/zed/keymap.json"
 
 [zsh.files]
 zshrc = "~/.zshrc"
