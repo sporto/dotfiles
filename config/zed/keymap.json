@@ -3,7 +3,16 @@
     "context": "Editor",
     "bindings": {
       "cmd-e": "editor::SortLinesCaseInsensitive",
-      "cmd-l": "go_to_line::Toggle"
+      "cmd-l": "go_to_line::Toggle",
+      "cmd-shift-down": "editor::MoveLineDown",
+      "cmd-shift-up": "editor::MoveLineUp",
+      "cmd-u": "outline::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-i": "command_palette::Toggle"
     }
   }
 ]

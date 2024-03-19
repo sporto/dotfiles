@@ -14,5 +14,6 @@ znap source marlonrichert/zsh-autocomplete
 alias dc="docker compose"
 
 eval "$(atuin init zsh)"
+eval "$(flox activate --dir ~)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
