@@ -2,7 +2,8 @@
   {
     "context": "Editor",
     "bindings": {
-      "cmd-e": "editor::SortLinesCaseInsensitive"
+      "cmd-e": "editor::SortLinesCaseInsensitive",
+      "cmd-l": "go_to_line::Toggle"
     }
   }
 ]
