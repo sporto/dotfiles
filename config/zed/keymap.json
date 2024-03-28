@@ -5,6 +5,7 @@
       "cmd-down": "editor::MoveLineDown",
       "cmd-e": "editor::SortLinesCaseInsensitive",
       "cmd-l": "go_to_line::Toggle",
+      "cmd-shift-d": "editor::DuplicateLine",
       "cmd-shift-down": "editor::MoveLineDown",
       "cmd-shift-k": "editor::DeleteLine",
       "cmd-shift-up": "editor::MoveLineUp",
