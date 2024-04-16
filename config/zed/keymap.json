@@ -1,16 +1,31 @@
 [
   {
+    "bindings": {
+      "cmd-,": null,
+      "cmd-h": null,
+      "cmd-m": null
+    }
+  },
+  {
     "context": "Editor",
     "bindings": {
       "cmd-down": "editor::MoveLineDown",
       "cmd-e": "editor::SortLinesCaseInsensitive",
       "cmd-l": "go_to_line::Toggle",
-      "cmd-shift-d": "editor::DuplicateLine",
+      "cmd-shift-d": "editor::DuplicateLineDown",
       "cmd-shift-down": "editor::MoveLineDown",
       "cmd-shift-k": "editor::DeleteLine",
       "cmd-shift-up": "editor::MoveLineUp",
       "cmd-u": "outline::Toggle",
       "cmd-up": "editor::MoveLineUp"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-\\": "pane::GoBack",
+      "cmd-,": "pane::GoBack",
+      "cmd-w": "zed::NoAction"
     }
   },
   {
