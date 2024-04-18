@@ -15,6 +15,7 @@ alias dc="docker compose"
 alias fa="flox activate"
 
 eval "$(atuin init zsh)"
+eval "$(direnv hook zsh)"
 eval "$(flox activate --dir ~)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
