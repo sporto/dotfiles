@@ -14,8 +14,10 @@ znap source marlonrichert/zsh-autocomplete
 alias dc="docker compose"
 alias fa="flox activate"
 
+# Flox needs to be loaded first, so the others can be found
+eval "$(flox activate --dir ~)"
+
 eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
-eval "$(flox activate --dir ~)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
