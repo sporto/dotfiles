@@ -1,1 +1,1 @@
-packages = ["zed", "zsh"]
+packages = ["alacritty", "zed", "zsh"]
