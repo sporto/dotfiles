@@ -6,6 +6,8 @@ ui {
     }
 }
 
+simplified_ui true
+
 themes {
     default {
         fg "#D8DEE9"
