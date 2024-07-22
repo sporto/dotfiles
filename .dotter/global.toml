@@ -5,5 +5,8 @@
 "config/zed/keymap.json" = "~/.config/zed/keymap.json"
 "config/zed/settings.json" = "~/.config/zed/settings.json"
 
+[zellij.files]
+"config/zellij/config.kdl" = "~/.config/zellij/config.kdl"
+
 [zsh.files]
 zshrc = "~/.zshrc"
