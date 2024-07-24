@@ -1,6 +1,9 @@
 [alacritty.files]
 "config/alacritty/alacritty.toml" = "~/.config/alacritty/alacritty.toml"
 
+[wezterm.files]
+"config/wezterm/wezterm.lua" = "~/.config/wezterm/wezterm.lua"
+
 [zed.files]
 "config/zed/keymap.json" = "~/.config/zed/keymap.json"
 "config/zed/settings.json" = "~/.config/zed/settings.json"
