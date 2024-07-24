@@ -16,35 +16,129 @@ config.font_size = 16.0
 -- keys
 config.disable_default_key_bindings = true
 
+local act = wezterm.action
+
 config.keys = {
+    { key = 'd', mods = 'CMD|SHIFT', action = wezterm.action.ShowDebugOverlay },
     {
         key = 'm',
         mods = 'CMD',
-        action = wezterm.action.DisableDefaultAssignment,
+        action = act.DisableDefaultAssignment,
     },
     {
         key = 'v',
         mods = 'CMD',
-        action = wezterm.action.PasteFrom 'Clipboard'
+        action = act.PasteFrom 'Clipboard'
     },
     {
         key = 'c',
         mods = 'CMD',
-        action = wezterm.action.CopyTo 'Clipboard'
+        action = act.CopyTo 'Clipboard'
+    },
+    -- Tabs
+    {
+        key = 't',
+        mods = 'CMD',
+        action = act.SpawnTab 'CurrentPaneDomain',
     },
     {
-        key = 's',
+        key = 'o',
+        mods = 'CMD',
+        action = act.ActivateTabRelative(-1),
+    },
+    {
+        key = 'p',
+        mods = 'CMD',
+        action = act.ActivateTabRelative(1),
+    },
+    {
+        key = '1',
+        mods = 'CMD',
+        action = act.ActivateTab(0),
+    },
+    {
+        key = '2',
+        mods = 'CMD',
+        action = act.ActivateTab(1),
+    },
+    {
+        key = '3',
+        mods = 'CMD',
+        action = act.ActivateTab(2),
+    },
+    -- {
+    --     key = 'w',
+    --     mods = 'CMD',
+    --     action = act.CloseCurrentTab { confirm = true },
+    -- },
+    -- Splits
+    {
+        key = 'j',
         mods = 'CMD|SHIFT',
-        action = wezterm.action.SplitPane {
+        action = act.SplitPane {
             direction = 'Left',
         },
     },
     {
-        key = 'a',
+        key = 'l',
         mods = 'CMD|SHIFT',
-        action = wezterm.action.SplitPane {
+        action = act.SplitPane {
+            direction = 'Right',
+        },
+    },
+    {
+        key = 'i',
+        mods = 'CMD|SHIFT',
+        action = act.SplitPane {
+            direction = 'Up',
+        },
+    },
+    {
+        key = 'k',
+        mods = 'CMD|SHIFT',
+        action = act.SplitPane {
             direction = 'Down',
         },
+    },
+    {
+        key = 'LeftArrow',
+        mods = 'CMD',
+        action = act.ActivatePaneDirection "Left",
+    },
+    {
+        key = 'RightArrow',
+        mods = 'CMD',
+        action = act.ActivatePaneDirection "Right",
+    },
+    {
+        key = 'UpArrow',
+        mods = 'CMD',
+        action = act.ActivatePaneDirection "Up",
+    },
+    {
+        key = 'DownArrow',
+        mods = 'CMD',
+        action = act.ActivatePaneDirection "Down",
+    },
+    {
+        key = 'RightArrow',
+        mods = 'CMD|SHIFT',
+        action = act.AdjustPaneSize { "Right", 1 },
+    },
+    {
+        key = 'LeftArrow',
+        mods = 'CMD|SHIFT',
+        action = act.AdjustPaneSize { "Left", 1 },
+    },
+    {
+        key = 'UpArrow',
+        mods = 'CMD|SHIFT',
+        action = act.AdjustPaneSize { "Up", 1 },
+    },
+    {
+        key = 'DownArrow',
+        mods = 'CMD|SHIFT',
+        action = act.AdjustPaneSize { "Down", 1 },
     },
 }
 
