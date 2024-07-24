@@ -50,6 +50,19 @@
           ]
         }
       }
+    },
+    "TSX": {
+      "format_on_save": {
+        "external": {
+          "command": "biome",
+          "arguments": [
+            "format",
+            "--write",
+            "--stdin-file-path",
+            "{buffer_path}"
+          ]
+        }
+      }
     }
   },
   "lsp": {
