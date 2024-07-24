@@ -74,69 +74,71 @@ config.keys = {
     -- Splits
     {
         key = 'j',
-        mods = 'CMD|SHIFT',
+        mods = 'CMD',
         action = act.SplitPane {
             direction = 'Left',
         },
     },
     {
         key = 'l',
-        mods = 'CMD|SHIFT',
+        mods = 'CMD',
         action = act.SplitPane {
             direction = 'Right',
         },
     },
     {
         key = 'i',
-        mods = 'CMD|SHIFT',
+        mods = 'CMD',
         action = act.SplitPane {
             direction = 'Up',
         },
     },
     {
         key = 'k',
-        mods = 'CMD|SHIFT',
+        mods = 'CMD',
         action = act.SplitPane {
             direction = 'Down',
         },
     },
+    -- Pane move
     {
-        key = 'LeftArrow',
-        mods = 'CMD',
+        key = 'j',
+        mods = 'SHIFT',
         action = act.ActivatePaneDirection "Left",
     },
     {
-        key = 'RightArrow',
-        mods = 'CMD',
+        key = 'l',
+        mods = 'SHIFT',
         action = act.ActivatePaneDirection "Right",
     },
     {
-        key = 'UpArrow',
-        mods = 'CMD',
+        key = 'i',
+        mods = 'SHIFT',
         action = act.ActivatePaneDirection "Up",
     },
     {
-        key = 'DownArrow',
-        mods = 'CMD',
+        key = 'k',
+        mods = 'SHIFT',
         action = act.ActivatePaneDirection "Down",
     },
+    -- Panel resize
     {
-        key = 'RightArrow',
+        key = 'l',
         mods = 'CMD|SHIFT',
         action = act.AdjustPaneSize { "Right", 1 },
     },
     {
-        key = 'LeftArrow',
+        key = 'j',
         mods = 'CMD|SHIFT',
         action = act.AdjustPaneSize { "Left", 1 },
     },
     {
-        key = 'UpArrow',
+        key = 'i',
         mods = 'CMD|SHIFT',
         action = act.AdjustPaneSize { "Up", 1 },
     },
     {
-        key = 'DownArrow',
+        key = 'k',
         mods = 'CMD|SHIFT',
         action = act.AdjustPaneSize { "Down", 1 },
     },
