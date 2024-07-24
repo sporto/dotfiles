@@ -14,5 +14,40 @@ config.font =
   wezterm.font('JetBrains Mono', {})
 config.font_size = 16.0
 
+-- keys
+config.disable_default_key_bindings = true
+
+config.keys = {
+  {
+    key = 'm',
+    mods = 'CMD',
+    action = wezterm.action.DisableDefaultAssignment,
+  },
+  {
+    key = 'v',
+    mods = 'CMD',
+    action = wezterm.action.PasteFrom 'Clipboard'
+  },
+  {
+    key = 'c',
+    mods = 'CMD',
+    action = wezterm.action.CopyTo 'Clipboard'
+  },
+  {
+    key = 's',
+    mods = 'CMD|SHIFT',
+    action = wezterm.action.SplitPane {
+      direction = 'Left',
+    },
+  },
+   {
+    key = 'a',
+    mods = 'CMD|SHIFT',
+    action = wezterm.action.SplitPane {
+      direction = 'Down',
+    },
+  },
+}
+
 -- and finally, return the configuration to wezterm
 return config
