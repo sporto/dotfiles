@@ -12,6 +12,7 @@
       "cmd-down": "editor::MoveLineDown",
       "cmd-e": "editor::SortLinesCaseInsensitive",
       "cmd-l": "go_to_line::Toggle",
+      "cmd-i": "command_palette::Toggle",
       "cmd-shift-d": "editor::DuplicateLineDown",
       "cmd-shift-down": "editor::MoveLineDown",
       "cmd-shift-k": "editor::DeleteLine",
