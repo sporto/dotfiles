@@ -1,0 +1,5 @@
+[env_var]
+variable = 'FLOX_PROMPT_ENVIRONMENTS'
+default = 'no-flox-env'
+format = "[ƒ: $env_value]($style) "
+style = "fg:blue"

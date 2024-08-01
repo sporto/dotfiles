@@ -1,6 +1,9 @@
 [alacritty.files]
 "config/alacritty/alacritty.toml" = "~/.config/alacritty/alacritty.toml"
 
+[starship.files]
+"config/starship/starship.toml" = "~/.config/starship.toml"
+
 [wezterm.files]
 "config/wezterm/wezterm.lua" = "~/.config/wezterm/wezterm.lua"
 

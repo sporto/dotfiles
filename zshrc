@@ -12,8 +12,10 @@ source ~/.znap/znap/znap.zsh  # Start Znap
 znap source marlonrichert/zsh-autocomplete
 
 alias dc="docker compose"
-alias fa="flox activate"
+alias fa="flox activate -- zsh"
+alias reload="source ~/.zshrc"
 
+# Activate flox default environment
 # Flox needs to be loaded first, so the others can be found
 eval "$(flox activate --dir ~)"
 
