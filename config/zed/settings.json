@@ -7,6 +7,13 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
   "theme": "Ayu Mirage",
   "ui_font_size": 16,
   "buffer_font_family": "JetBrains Mono",
@@ -25,6 +32,9 @@
       },
       "linked_edits": false,
       "tab_size": 4
+    },
+    "HTML": {
+      "tab_size": 2
     },
     "Make": {
       "hard_tabs": true
