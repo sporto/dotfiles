@@ -7,87 +7,87 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-    "assistant": {
-        "default_model": {
-            "provider": "copilot_chat",
-            "model": "gpt-4o"
-        },
-        "version": "2"
-    },
-    "theme": "Ayu Mirage",
-    "ui_font_size": 16,
-    "buffer_font_family": "JetBrains Mono",
-    "buffer_font_size": 16,
-    "tab_size": 3,
-    "languages": {
-        "CSS": {
-            "tab_size": 2
-        },
-        "Elm": {
-            "format_on_save": "on",
-            "formatter": {
-                "external": {
-                    "command": "elm-format",
-                    "arguments": ["--stdin"]
-                }
-            },
-            "linked_edits": false,
-            "tab_size": 4
-        },
-        "HTML": {
-            "tab_size": 2
-        },
-        "Just": {
-            "hard_tabs": true
-        },
-        "Make": {
-            "hard_tabs": true
-        },
-        "Ruby": {
-            "format_on_save": "on",
-            "formatter": {
-                "external": {
-                    "command": "rubyfmt",
-                    "arguments": []
-                }
+   "assistant": {
+      "default_model": {
+         "provider": "copilot_chat",
+         "model": "gpt-4o"
+      },
+      "version": "2"
+   },
+   "theme": "Ayu Mirage",
+   "ui_font_size": 16,
+   "buffer_font_family": "JetBrains Mono",
+   "buffer_font_size": 16,
+   "tab_size": 2,
+   "languages": {
+      "CSS": {
+         "tab_size": 2
+      },
+      "Elm": {
+         "format_on_save": "on",
+         "formatter": {
+            "external": {
+               "command": "elm-format",
+               "arguments": ["--stdin"]
             }
-        },
-        "TypeScript": {
-            "format_on_save": {
-                "external": {
-                    "command": "biome",
-                    "arguments": [
-                        "format",
-                        "--write",
-                        "--stdin-file-path",
-                        "{buffer_path}"
-                    ]
-                }
+         },
+         "linked_edits": false,
+         "tab_size": 4
+      },
+      "HTML": {
+         "tab_size": 2
+      },
+      "Just": {
+         "hard_tabs": true
+      },
+      "Make": {
+         "hard_tabs": true
+      },
+      "Ruby": {
+         "format_on_save": "on",
+         "formatter": {
+            "external": {
+               "command": "rubyfmt",
+               "arguments": []
             }
-        },
-        "TSX": {
-            "format_on_save": {
-                "external": {
-                    "command": "biome",
-                    "arguments": [
-                        "format",
-                        "--write",
-                        "--stdin-file-path",
-                        "{buffer_path}"
-                    ]
-                }
+         }
+      },
+      "TypeScript": {
+         "format_on_save": {
+            "external": {
+               "command": "biome",
+               "arguments": [
+                  "format",
+                  "--write",
+                  "--stdin-file-path",
+                  "{buffer_path}"
+               ]
             }
-        }
-    },
-    "lsp": {
-        "elm-language-server": {
-            "enabled": false,
-            "initialization_options": {
-                "disableElmLSDiagnostics": true,
-                "onlyUpdateDiagnosticsOnSave": false,
-                "elmReviewDiagnostics": "off",
-                "elmFormatPath": "/Users/sebastian/Source/staxio/stax/.flox/run/aarch64-darwin.stax/bin/elm-format"
+         }
+      },
+      "TSX": {
+         "format_on_save": {
+            "external": {
+               "command": "biome",
+               "arguments": [
+                  "format",
+                  "--write",
+                  "--stdin-file-path",
+                  "{buffer_path}"
+               ]
             }
-        }
-    }
+         }
+      }
+   },
+   "lsp": {
+      "elm-language-server": {
+         "enabled": false,
+         "initialization_options": {
+            "disableElmLSDiagnostics": true,
+            "onlyUpdateDiagnosticsOnSave": false,
+            "elmReviewDiagnostics": "off",
+            "elmFormatPath": "/Users/sebastian/Source/staxio/stax/.flox/run/aarch64-darwin.stax/bin/elm-format"
+         }
+      }
+   }
 }
