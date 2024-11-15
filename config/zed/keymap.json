@@ -26,8 +26,7 @@
     "context": "Pane",
     "bindings": {
       "cmd-\\": "pane::GoBack",
-      "cmd-,": "pane::GoBack",
-      "cmd-w": "zed::NoAction"
+      "cmd-,": "pane::GoBack"
     }
   },
   {
