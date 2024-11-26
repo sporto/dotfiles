@@ -1,4 +1,5 @@
 export GPG_TTY=$(tty)
+export EDITOR=hx
 
 # https://github.com/marlonrichert/zsh-snap
 # Plugin manager for zsh
