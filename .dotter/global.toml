@@ -1,6 +1,9 @@
 [alacritty.files]
 "config/alacritty/alacritty.toml" = "~/.config/alacritty/alacritty.toml"
 
+[ghostty.files]
+"config/ghostty/config" = "~/.config/ghostty/config"
+
 [helix.files]
 "config/helix/config.toml" = "~/.config/helix/config.toml"
 

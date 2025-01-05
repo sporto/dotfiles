@@ -1,1 +1,10 @@
-packages = ["alacritty", "helix", "starship", "wezterm", "zed", "zellij", "zsh"]
+packages = [
+  "alacritty",
+  "ghostty",
+  "helix",
+  "starship",
+  "wezterm",
+  "zed",
+  "zellij",
+  "zsh",
+]
