@@ -1,1 +1,18 @@
 theme = "ayu_mirage"
+
+[keys.normal]
+C-s = ":w"
+"," = ":w"
+j = "move_char_left"
+k = "move_visual_line_down"
+l = "move_char_right"
+i = "move_visual_line_up"
+h = "insert_mode"
+H = "insert_at_line_start"
+
+[keys.insert]
+C-s = ["normal_mode", ":write"]
+h = { h = "normal_mode" }
+
+[keys.normal.g]
+j = "goto_line_start"
