@@ -16,3 +16,12 @@ h = { h = "normal_mode" }
 
 [keys.normal.g]
 j = "goto_line_start"
+
+[keys.normal.C-w]
+j = "jump_view_left"
+
+[keys.normal."space".w]
+j = "jump_view_left"
+
+[keys.normal.";"]
+s = ":w"
