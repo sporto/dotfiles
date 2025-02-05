@@ -73,62 +73,62 @@ config.keys = {
     --     action = act.CloseCurrentTab { confirm = true },
     -- },
     -- Splits
-    {
-        key = 'LeftArrow',
-        mods = 'CMD',
-        action = act.SplitPane {
-            direction = 'Left',
-        },
-    },
-    {
-        key = 'j',
-        mods = 'CMD',
-        action = act.SplitPane {
-            direction = 'Left',
-        },
-    },
-    {
-        key = 'RightArrow',
-        mods = 'CMD',
-        action = act.SplitPane {
-            direction = 'Right',
-        },
-    },
-    {
-        key = 'l',
-        mods = 'CMD',
-        action = act.SplitPane {
-            direction = 'Right',
-        },
-    },
-    {
-        key = 'UpArrow',
-        mods = 'CMD',
-        action = act.SplitPane {
-            direction = 'Up',
-        },
-    },
-    {
-        key = 'i',
-        mods = 'CMD',
-        action = act.SplitPane {
-            direction = 'Up',
-        },
-    },
-    {
-        key = 'DownArrow',
-        mods = 'CMD',
-        action = act.SplitPane {
-            direction = 'Down',
-        },
-    },
-    {
-        key = 'k',
-        mods = 'CMD',
-        action = act.SplitPane {
-            direction = 'Down',
-        },
-    },
+    -- {
+    --     key = 'LeftArrow',
+    --     mods = 'CMD',
+    --     action = act.SplitPane {
+    --         direction = 'Left',
+    --     },
+    -- },
+    -- {
+    --     key = 'j',
+    --     mods = 'CMD',
+    --     action = act.SplitPane {
+    --         direction = 'Left',
+    --     },
+    -- },
+    -- {
+    --     key = 'RightArrow',
+    --     mods = 'CMD',
+    --     action = act.SplitPane {
+    --         direction = 'Right',
+    --     },
+    -- },
+    -- {
+    --     key = 'l',
+    --     mods = 'CMD',
+    --     action = act.SplitPane {
+    --         direction = 'Right',
+    --     },
+    -- },
+    -- {
+    --     key = 'UpArrow',
+    --     mods = 'CMD',
+    --     action = act.SplitPane {
+    --         direction = 'Up',
+    --     },
+    -- },
+    -- {
+    --     key = 'i',
+    --     mods = 'CMD',
+    --     action = act.SplitPane {
+    --         direction = 'Up',
+    --     },
+    -- },
+    -- {
+    --     key = 'DownArrow',
+    --     mods = 'CMD',
+    --     action = act.SplitPane {
+    --         direction = 'Down',
+    --     },
+    -- },
+    -- {
+    --     key = 'k',
+    --     mods = 'CMD',
+    --     action = act.SplitPane {
+    --         direction = 'Down',
+    --     },
+    -- },
     -- Pane move
     -- {
     --     key = 'LeftArrow',
