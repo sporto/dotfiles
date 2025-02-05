@@ -13,6 +13,10 @@
 [wezterm.files]
 "config/wezterm/wezterm.lua" = "~/.config/wezterm/wezterm.lua"
 
+[yazi.files]
+"config/yazi/yazi.toml" = "~/.config/yazi/yazi.toml"
+"config/yazi/keymap.toml" = "~/.config/yazi/keymap.toml"
+
 [zed.files]
 "config/zed/keymap.json" = "~/.config/zed/keymap.json"
 "config/zed/settings.json" = "~/.config/zed/settings.json"

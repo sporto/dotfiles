@@ -25,3 +25,9 @@ eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+
+# https://github.com/josephschmitt/zide
+export PATH="$PATH:$HOME/.config/zide/bin"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/sebastian/.lmstudio/bin"
