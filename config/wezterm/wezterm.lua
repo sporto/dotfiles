@@ -130,46 +130,46 @@ config.keys = {
         },
     },
     -- Pane move
-    {
-        key = 'LeftArrow',
-        mods = 'SHIFT',
-        action = act.ActivatePaneDirection "Left",
-    },
-    {
-        key = 'j',
-        mods = 'SHIFT',
-        action = act.ActivatePaneDirection "Left",
-    },
-    {
-        key = 'RightArrow',
-        mods = 'SHIFT',
-        action = act.ActivatePaneDirection "Right",
-    },
-    {
-        key = 'l',
-        mods = 'SHIFT',
-        action = act.ActivatePaneDirection "Right",
-    },
-    {
-        key = 'UpArrow',
-        mods = 'SHIFT',
-        action = act.ActivatePaneDirection "Up",
-    },
-    {
-        key = 'i',
-        mods = 'SHIFT',
-        action = act.ActivatePaneDirection "Up",
-    },
-    {
-        key = 'DownArrow',
-        mods = 'SHIFT',
-        action = act.ActivatePaneDirection "Down",
-    },
-    {
-        key = 'k',
-        mods = 'SHIFT',
-        action = act.ActivatePaneDirection "Down",
-    },
+    -- {
+    --     key = 'LeftArrow',
+    --     mods = 'SHIFT',
+    --     action = act.ActivatePaneDirection "Left",
+    -- },
+    -- {
+    --     key = 'j',
+    --     mods = 'SHIFT',
+    --     action = act.ActivatePaneDirection "Left",
+    -- },
+    -- {
+    --     key = 'RightArrow',
+    --     mods = 'SHIFT',
+    --     action = act.ActivatePaneDirection "Right",
+    -- },
+    -- {
+    --     key = 'l',
+    --     mods = 'SHIFT',
+    --     action = act.ActivatePaneDirection "Right",
+    -- },
+    -- {
+    --     key = 'UpArrow',
+    --     mods = 'SHIFT',
+    --     action = act.ActivatePaneDirection "Up",
+    -- },
+    -- {
+    --     key = 'i',
+    --     mods = 'SHIFT',
+    --     action = act.ActivatePaneDirection "Up",
+    -- },
+    -- {
+    --     key = 'DownArrow',
+    --     mods = 'SHIFT',
+    --     action = act.ActivatePaneDirection "Down",
+    -- },
+    -- {
+    --     key = 'k',
+    --     mods = 'SHIFT',
+    --     action = act.ActivatePaneDirection "Down",
+    -- },
     -- Panel resize
     {
         key = 'LeftArrow',
