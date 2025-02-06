@@ -11,6 +11,9 @@
 [helix.files]
 "config/helix/config.toml" = "~/.config/helix/config.toml"
 
+[scripts.files]
+"scripts/open-in-helix.sh" = "~/.local/bin/open-in-helix.sh"
+
 [starship.files]
 "config/starship/starship.toml" = "~/.config/starship.toml"
 
