@@ -31,3 +31,6 @@ export PATH="$PATH:$HOME/.config/zide/bin"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/sebastian/.lmstudio/bin"
+
+# Add wezterm cli
+export PATH="$PATH:/Applications/WezTerm.app/Contents/MacOS"
