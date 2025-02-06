@@ -1,6 +1,10 @@
 [alacritty.files]
 "config/alacritty/alacritty.toml" = "~/.config/alacritty/alacritty.toml"
 
+[broot.files]
+"config/broot/conf.hjson" = "~/.config/broot/conf.hjson"
+"config/broot/verbs.hjson" = "~/.config/broot/verbs.hjson"
+
 [ghostty.files]
 "config/ghostty/config" = "~/.config/ghostty/config"
 
