@@ -13,7 +13,14 @@ H = "insert_at_line_start"
 [keys.insert]
 C-s = ["normal_mode", ":write"]
 h = { h = "normal_mode" }
+# i = { i = "normal_mode" }
 
+[keys.select]
+i = "extend_visual_line_up"
+k = "extend_visual_line_down"
+j = "extend_char_left"
+l = "extend_char_right"
+ 
 [keys.normal.g]
 j = "goto_line_start"
 
