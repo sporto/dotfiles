@@ -1,5 +1,11 @@
 theme = "ayu_mirage"
 
+[editor]
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+
 [keys.normal]
 C-s = ":w"
 "," = ":w"
@@ -12,7 +18,8 @@ H = "insert_at_line_start"
 
 [keys.insert]
 C-s = ["normal_mode", ":write"]
-h = { h = "normal_mode" }
+# "" = "normal_mode"
+# h = { h = "normal_mode" }
 # i = { i = "normal_mode" }
 
 [keys.select]
