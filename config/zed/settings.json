@@ -17,6 +17,9 @@
     },
     "version": "2"
   },
+  "edit_predictions": {
+    "mode": "subtle"
+  },
   "theme": "Ayu Mirage",
   "ui_font_size": 16,
   "buffer_font_family": "JetBrains Mono",
