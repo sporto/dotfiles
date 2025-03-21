@@ -12,6 +12,7 @@ source ~/.znap/znap/znap.zsh  # Start Znap
 # https://github.com/marlonrichert/zsh-autocomplete
 znap source marlonrichert/zsh-autocomplete
 
+alias j="just"
 alias co="gh copilot"
 alias dc="docker compose"
 alias fa="flox activate -- zsh"
