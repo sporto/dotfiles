@@ -10,6 +10,7 @@
 
 [helix.files]
 "config/helix/config.toml" = "~/.config/helix/config.toml"
+"config/helix/languages.toml" = "~/.config/helix/languages.toml"
 
 [scripts.files]
 "scripts/open-in-helix.sh" = "~/.local/bin/open-in-helix.sh"
