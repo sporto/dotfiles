@@ -7,7 +7,6 @@ color-modes = true
 insert = "bar"
 
 [keys.normal]
-C-s = ":w"
 "," = ":w"
 j = "move_char_left"
 k = "move_visual_line_down"
@@ -27,7 +26,7 @@ i = "extend_visual_line_up"
 k = "extend_visual_line_down"
 j = "extend_char_left"
 l = "extend_char_right"
- 
+
 [keys.normal.g]
 j = "goto_line_start"
 
