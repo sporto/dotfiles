@@ -10,7 +10,7 @@ auto-format = true
 name = "typescript"
 language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
 auto-format = true
-formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.ts"] }
 
 [[language]]
 name = "tsx"
