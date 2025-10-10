@@ -25,16 +25,7 @@
   {
     "context": "Editor && edit_prediction",
     "bindings": {
-      "alt-tab": null,
-      "alt-d": "editor::AcceptEditPrediction",
       "tab": "editor::AcceptEditPrediction"
-    }
-  },
-  {
-    "context": "Editor && edit_prediction_conflict",
-    "bindings": {
-      "alt-tab": null,
-      "alt-d": "editor::AcceptEditPrediction"
     }
   },
   {
