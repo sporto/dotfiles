@@ -27,6 +27,8 @@ eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
+export PATH="$PATH:$HOME/.local/bin"
+
 # https://github.com/josephschmitt/zide
 export PATH="$PATH:$HOME/.config/zide/bin"
 
