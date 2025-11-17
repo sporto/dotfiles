@@ -8,6 +8,9 @@
 // from the command palette or from `Zed` application menu.
 {
   "helix_mode": true,
+    "minimap": {
+    "show": "auto"
+  },
   "features": {
     "edit_prediction_provider": "zed"
   },
