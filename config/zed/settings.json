@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "helix_mode": true,
   "features": {
     "edit_prediction_provider": "zed"
   },
@@ -14,8 +15,7 @@
     "default_model": {
       "provider": "copilot_chat",
       "model": "gpt-4o"
-    },
-    "version": "2"
+    }
   },
   "edit_predictions": {
     "mode": "subtle"
@@ -72,7 +72,7 @@
       }
     },
     "TypeScript": {
-      "format_on_save": {
+      "formatter": {
         "external": {
           "command": "biome",
           "arguments": [
@@ -82,10 +82,11 @@
             "{buffer_path}"
           ]
         }
-      }
+      },
+      "format_on_save": "on"
     },
     "TSX": {
-      "format_on_save": {
+      "formatter": {
         "external": {
           "command": "biome",
           "arguments": [
@@ -95,7 +96,8 @@
             "{buffer_path}"
           ]
         }
-      }
+      },
+      "format_on_save": "on"
     }
   },
   "lsp": {
