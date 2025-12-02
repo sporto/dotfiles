@@ -7,6 +7,9 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "search": {
+    "case_sensitive": true
+  },
   "helix_mode": false,
     "minimap": {
     "show": "auto"
