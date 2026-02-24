@@ -37,3 +37,8 @@ export PATH="$PATH:/Users/sebastian/.lmstudio/bin"
 
 # Add wezterm cli
 export PATH="$PATH:/Applications/WezTerm.app/Contents/MacOS"
+
+. "$HOME/.grit/bin/env"
+
+# opencode
+export PATH=/Users/sebastian/.opencode/bin:$PATH

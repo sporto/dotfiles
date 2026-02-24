@@ -47,5 +47,11 @@
     "bindings": {
       "cmd-i": "command_palette::Toggle"
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-g": "git_panel::ToggleFocus"
+    }
   }
 ]

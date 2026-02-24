@@ -7,114 +7,114 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "search": {
-    "case_sensitive": true
-  },
-  "helix_mode": false,
+    "colorize_brackets": true,
+    "search": {
+        "case_sensitive": true,
+    },
+    "helix_mode": false,
     "minimap": {
-    "show": "auto"
-  },
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
-  "agent": {
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o"
-    }
-  },
-  "edit_predictions": {
-    "mode": "subtle"
-  },
-  "theme": "Ayu Mirage",
-  "ui_font_size": 16,
-  "buffer_font_family": "JetBrains Mono",
-  "buffer_font_size": 16,
-  "project_panel": {
-    "auto_fold_dirs": false
-  },
-  "tab_size": 4,
-  "languages": {
-    "CSS": {
-      "tab_size": 2
+        "show": "auto",
     },
-    "Elm": {
-      "format_on_save": "on",
-      "formatter": {
-        "external": {
-          "command": "elm-format",
-          "arguments": ["--stdin"]
-        }
-      },
-      "linked_edits": false,
-      "tab_size": 4
+    "agent": {
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "gpt-4o",
+        },
     },
-    "HTML": {
-      "tab_size": 2
+    "edit_predictions": {
+        "provider": "zed",
+        "mode": "subtle",
     },
-    "Just": {
-      "hard_tabs": true
+    "theme": "Ayu Mirage",
+    "ui_font_size": 16,
+    "buffer_font_family": "JetBrains Mono",
+    "buffer_font_size": 16,
+    "project_panel": {
+        "auto_fold_dirs": false,
     },
-    "Make": {
-      "hard_tabs": true
+    "tab_size": 4,
+    "languages": {
+        "CSS": {
+            "tab_size": 2,
+        },
+        "Elm": {
+            "format_on_save": "on",
+            "formatter": {
+                "external": {
+                    "command": "elm-format",
+                    "arguments": ["--stdin"],
+                },
+            },
+            "linked_edits": false,
+            "tab_size": 4,
+        },
+        "HTML": {
+            "tab_size": 2,
+        },
+        "Just": {
+            "tab_size": 2,
+            "hard_tabs": true,
+        },
+        "Make": {
+            "hard_tabs": true,
+        },
+        "Python": {
+            "language_servers": ["!pyright", "pylsp"],
+            "format_on_save": "on",
+            "formatter": {
+                "external": {
+                    "command": "black",
+                    "arguments": [],
+                },
+            },
+        },
+        "Ruby": {
+            "format_on_save": "on",
+            "formatter": {
+                "external": {
+                    "command": "rubyfmt",
+                    "arguments": [],
+                },
+            },
+        },
+        "TypeScript": {
+            "formatter": {
+                "external": {
+                    "command": "biome",
+                    "arguments": [
+                        "format",
+                        "--write",
+                        "--stdin-file-path",
+                        "{buffer_path}",
+                    ],
+                },
+            },
+            "format_on_save": "on",
+        },
+        "TSX": {
+            "formatter": {
+                "external": {
+                    "command": "biome",
+                    "arguments": [
+                        "format",
+                        "--write",
+                        "--stdin-file-path",
+                        "{buffer_path}",
+                    ],
+                },
+            },
+            "format_on_save": "on",
+        },
     },
-    "Python": {
-      "language_servers": ["!pyright", "pylsp"],
-      "format_on_save": "on",
-      "formatter": {
-        "external": {
-          "command": "black",
-          "arguments": []
-        }
-      }
+    "lsp": {
+        "elm-language-server": {
+            "enabled": false,
+            "initialization_options": {
+                "disableElmLSDiagnostics": true,
+                "onlyUpdateDiagnosticsOnSave": false,
+                "elmReviewDiagnostics": "off",
+                "elmFormatPath": "/Users/sebastian/Source/staxio/stax/.flox/run/aarch64-darwin.stax/bin/elm-format",
+            },
+        },
     },
-    "Ruby": {
-      "format_on_save": "on",
-      "formatter": {
-        "external": {
-          "command": "rubyfmt",
-          "arguments": []
-        }
-      }
-    },
-    "TypeScript": {
-      "formatter": {
-        "external": {
-          "command": "biome",
-          "arguments": [
-            "format",
-            "--write",
-            "--stdin-file-path",
-            "{buffer_path}"
-          ]
-        }
-      },
-      "format_on_save": "on"
-    },
-    "TSX": {
-      "formatter": {
-        "external": {
-          "command": "biome",
-          "arguments": [
-            "format",
-            "--write",
-            "--stdin-file-path",
-            "{buffer_path}"
-          ]
-        }
-      },
-      "format_on_save": "on"
-    }
-  },
-  "lsp": {
-    "elm-language-server": {
-      "enabled": false,
-      "initialization_options": {
-        "disableElmLSDiagnostics": true,
-        "onlyUpdateDiagnosticsOnSave": false,
-        "elmReviewDiagnostics": "off",
-        "elmFormatPath": "/Users/sebastian/Source/staxio/stax/.flox/run/aarch64-darwin.stax/bin/elm-format"
-      }
-    }
-  }
 }
