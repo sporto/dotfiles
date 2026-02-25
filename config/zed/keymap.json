@@ -51,7 +51,31 @@
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-shift-g": "git_panel::ToggleFocus"
+      "alt-cmd-g": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-cmd-e": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-e": null
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "bindings": {
+      "alt-cmd-e": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "alt-cmd-e": null
     }
   }
 ]
