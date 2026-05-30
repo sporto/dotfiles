@@ -39,6 +39,9 @@
     },
     "tab_size": 4,
     "languages": {
+        "JSON": {
+            "tab_size": 2
+        },
         "YAML": {
             "tab_size": 2
         },
@@ -86,6 +89,7 @@
             },
         },
         "TypeScript": {
+            "tab_size": 2,
             "formatter": {
                 "external": {
                     "command": "biome",
