@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+    "disable_ai": true,
     "cli_default_open_behavior": "new_window",
     "terminal": {
         "dock": "right"
@@ -39,12 +40,6 @@
     },
     "tab_size": 4,
     "languages": {
-        "JSON": {
-            "tab_size": 2
-        },
-        "YAML": {
-            "tab_size": 2
-        },
         "CSS": {
             "tab_size": 2,
         },
@@ -63,7 +58,7 @@
             "tab_size": 2,
         },
         "Just": {
-            "tab_size": 4,
+            "tab_size": 2,
             "hard_tabs": true,
         },
         "Make": {
@@ -89,7 +84,6 @@
             },
         },
         "TypeScript": {
-            "tab_size": 2,
             "formatter": {
                 "external": {
                     "command": "biome",
