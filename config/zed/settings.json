@@ -49,6 +49,9 @@
         "JSON": {
             "tab_size": 2,
         },
+        "YAML": {
+            "tab_size": 2
+        },
         "Gleam": {
             "format_on_save": "on",
         },
