@@ -7,11 +7,12 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+    "format_on_save": "on",
     "diff_view_style": "unified",
     "disable_ai": true,
     "cli_default_open_behavior": "new_window",
     "terminal": {
-        "dock": "right"
+        "dock": "right",
     },
     "colorize_brackets": true,
     "search": {
@@ -27,6 +28,10 @@
             "model": "gpt-4o",
         },
     },
+    "code_actions_on_format": {
+        "source.organizeImports.biome": true,
+        "source.fixAll.biome": true,
+    },
     "edit_predictions": {
         "provider": "zed",
         "mode": "subtle",
@@ -41,8 +46,11 @@
     },
     "tab_size": 4,
     "languages": {
+        "JSON": {
+            "tab_size": 2,
+        },
         "Gleam": {
-            "format_on_save": "on"
+            "format_on_save": "on",
         },
         "CSS": {
             "tab_size": 2,
