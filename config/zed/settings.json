@@ -99,6 +99,7 @@
             },
         },
         "TypeScript": {
+            "tab_size": 2,
             "formatter": {
                 "external": {
                     "command": "biome",
