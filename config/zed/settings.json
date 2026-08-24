@@ -46,6 +46,9 @@
     },
     "tab_size": 4,
     "languages": {
+        "YAML": {
+            "tab_size": 2
+        },
         "JSON": {
             "tab_size": 2,
         },
