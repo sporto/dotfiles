@@ -21,7 +21,7 @@ alias reload="source ~/.zshrc"
 # Activate flox default environment
 # Flox needs to be loaded first, so the others can be found
 eval "$(flox activate --dir ~)"
-
+eval "$(mise activate zsh)"
 eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
