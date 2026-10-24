@@ -12,6 +12,8 @@ source ~/.znap/znap/znap.zsh  # Start Znap
 # https://github.com/marlonrichert/zsh-autocomplete
 znap source marlonrichert/zsh-autocomplete
 
+export PATH="$PATH:$HOME/.local/bin"
+
 alias j="just"
 alias co="gh copilot"
 alias dc="docker compose"
@@ -27,18 +29,8 @@ eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
-export PATH="$PATH:$HOME/.local/bin"
-
-# https://github.com/josephschmitt/zide
-export PATH="$PATH:$HOME/.config/zide/bin"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/sebastian/.lmstudio/bin"
-
 # Add wezterm cli
 export PATH="$PATH:/Applications/WezTerm.app/Contents/MacOS"
-
-. "$HOME/.grit/bin/env"
 
 # opencode
 export PATH=/Users/sebastian/.opencode/bin:$PATH
