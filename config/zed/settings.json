@@ -23,10 +23,19 @@
         "show": "auto",
     },
     "agent": {
+        "default_profile": "ask",
+        "tool_permissions": {
+            "tools": {
+                "terminal": {
+                    "default": "allow"
+                }
+            }
+        },
         "default_model": {
+            "effort": "high",
             "enable_thinking": true,
             "provider": "copilot_chat",
-            "model": "claude-haiku-4.5",
+            "model": "claude-sonnet-5.5",
         },
     },
     "code_actions_on_format": {
@@ -77,8 +86,8 @@
             "tab_size": 2,
         },
         "Just": {
-            "tab_size": 2,
-            "hard_tabs": true,
+            "tab_size": 4,
+            "hard_tabs": false,
         },
         "Make": {
             "hard_tabs": true,
