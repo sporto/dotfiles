@@ -17,7 +17,6 @@ export PATH="$PATH:$HOME/.local/bin"
 alias j="just"
 alias co="gh copilot"
 alias dc="docker compose"
-alias fa="flox activate -- zsh"
 alias reload="source ~/.zshrc"
 
 # Activate flox default environment

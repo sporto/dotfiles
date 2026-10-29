@@ -7,6 +7,11 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+    "agent_servers": {
+        "claude-acp": {
+            "type": "registry"
+        }
+    },
     "format_on_save": "on",
     "diff_view_style": "unified",
     "disable_ai": false,
